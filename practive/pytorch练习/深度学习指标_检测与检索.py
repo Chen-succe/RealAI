@@ -19,5 +19,8 @@ def IoU(SR, GT, threshold=0.5):
 sr = torch.eye(3,3)
 gr = torch.randint(0, 2, size=(3,3))
 IoU(sr, gr)
+
+
     
     
+ 
